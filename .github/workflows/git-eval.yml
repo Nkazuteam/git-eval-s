@@ -3,8 +3,6 @@ name: Git-Eval S Rank
 on:
   push:
     branches: ["**"]
-  pull_request:
-    branches: [main]
 
 jobs:
   evaluate:
