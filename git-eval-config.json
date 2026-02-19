@@ -1,0 +1,6 @@
+{
+  "language": "python",
+  "build": "pip install -r requirements.txt",
+  "test": "pytest --cov=mdtoc",
+  "lint": "flake8 mdtoc/ tests/"
+}
